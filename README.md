@@ -22,6 +22,7 @@
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 5. Now go to vimrc file which is a configuration file for the vim. Press i. Then write:
+
 ```
     call plug#begin('~/.vim/plugged')
     Plug 'lervag/vimtex'
