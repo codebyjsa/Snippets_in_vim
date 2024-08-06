@@ -82,3 +82,33 @@ Then press esc and write
     :wq
 ```
 Then again go to vim and press i and write sign and press ctrl+s. You will find the rest has been written by itself.
+
+9. Then to convert a file of vim into pdf, remember the latex file have extension of .tex, now open vim, press i and write:
+
+```
+   \documentclass{article}
+   \usepackage{amsmath} % For better mathematical formatting
+
+   \begin{document}
+
+   Here is the integral:
+
+   \[
+   \int x \, dx
+   \]
+
+   \end{document}
+```
+Press esc and write:
+```
+   :wq filename.tex
+```
+Then to convert this file into pdf by writing:
+```
+   pdflatex filename.tex
+```
+Then to view it in pdf viewer named zathura write:
+```
+zathura filename.pdf
+```
+REMEMBER TO CHANGE THE FILE EXTENSION ON WRITING ```zathura``` AS .pdf NOT .tex   
