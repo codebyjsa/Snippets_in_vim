@@ -27,9 +27,9 @@
     Plug 'lervag/vimtex'
     Plug 'sirver/ultisnips'
     Plug 'honza/vim-snippets'
-
     call plug#end()
-
+```
+```
     let g:UltiSnipsExpandTrigger = '<c-s>'
     let g:UltiSnipsJumpForwardTrigger = '<c-j>'
     let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
