@@ -112,3 +112,84 @@ Then to view it in pdf viewer named zathura write:
 zathura filename.pdf
 ```
 REMEMBER TO CHANGE THE FILE EXTENSION ON WRITING ```zathura``` AS .pdf NOT .tex   
+
+##Test yourself!
+
+Use this code in vim and convert it into pdf and open it through pdf viewer, see it through zathura and share your experience!
+
+```
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+
+\title{A Comprehensive Overview of Mathematical Concepts}
+\author{Your Name}
+\date{\today}
+\maketitle
+
+\section{Introduction}
+Mathematics is a vast field that encompasses various areas of study. In this document, we will explore some fundamental mathematical concepts and their applications.
+
+\section{Algebra}
+Algebra involves the study of symbols and the rules for manipulating these symbols. 
+
+\subsection{Basic Algebraic Operations}
+Consider the following algebraic expression:
+\begin{equation}
+    a^2 + b^2 = c^2
+\end{equation}
+This is the Pythagorean theorem, which is a fundamental relation in Euclidean geometry.
+
+\subsection{Polynomial Functions}
+A polynomial function is an expression of the form:
+\begin{equation}
+    P(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0
+\end{equation}
+where \(a_i\) are coefficients and \(n\) is a non-negative integer.
+
+\section{Calculus}
+Calculus is concerned with change and motion. It has two main branches: differential calculus and integral calculus.
+
+\subsection{Differentiation}
+The derivative of a function \(f(x)\) measures how \(f(x)\) changes as \(x\) changes. The derivative is denoted by \(f'(x)\) or \(\frac{df}{dx}\):
+\begin{equation}
+    \frac{d}{dx} \left( x^n \right) = n x^{n-1}
+\end{equation}
+
+\subsection{Integration}
+The integral of a function \(f(x)\) represents the area under the curve of \(f(x)\):
+\begin{equation}
+    \int_a^b f(x) \, dx
+\end{equation}
+
+\section{Linear Algebra}
+Linear algebra deals with vector spaces and linear mappings between these spaces.
+
+\subsection{Vectors}
+A vector in \(\mathbb{R}^n\) is represented as:
+\begin{equation}
+    \mathbf{v} = \begin{pmatrix}
+        v_1 \\
+        v_2 \\
+        \vdots \\
+        v_n
+    \end{pmatrix}
+\end{equation}
+
+\subsection{Matrices}
+A matrix is a rectangular array of numbers arranged in rows and columns:
+\begin{equation}
+    A = \begin{pmatrix}
+        a_{11} & a_{12} \\
+        a_{21} & a_{22}
+    \end{pmatrix}
+\end{equation}
+
+\section{Conclusion}
+Mathematics provides a framework for understanding and solving complex problems. This document has touched on some of the core areas of mathematics.
+
+\end{document}
+```
